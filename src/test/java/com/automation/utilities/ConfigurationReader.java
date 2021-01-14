@@ -1,4 +1,4 @@
-package com.amazon.utilities;
+package com.automation.utilities;
 
 import java.io.FileInputStream;
 import java.util.Properties;

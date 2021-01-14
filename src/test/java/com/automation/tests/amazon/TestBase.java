@@ -1,4 +1,4 @@
-package com.amazon.tests;
+package com.automation.tests.amazon;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -11,9 +11,9 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
-import com.amazon.utilities.BrowserUtils;
-import com.amazon.utilities.ConfigurationReader;
-import com.amazon.utilities.Driver;
+import com.automation.utilities.BrowserUtils;
+import com.automation.utilities.ConfigurationReader;
+import com.automation.utilities.Driver;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;

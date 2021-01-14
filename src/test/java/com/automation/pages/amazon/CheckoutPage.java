@@ -1,10 +1,10 @@
-package com.amazon.pages;
+package com.automation.pages.amazon;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.amazon.utilities.Driver;
+import com.automation.utilities.Driver;
 
 public class CheckoutPage {
 	public CheckoutPage() {

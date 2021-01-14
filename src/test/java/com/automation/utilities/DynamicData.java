@@ -1,4 +1,4 @@
-package com.amazon.utilities;
+package com.automation.utilities;
 
 import java.math.BigDecimal;
 

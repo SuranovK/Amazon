@@ -1,4 +1,4 @@
-package com.amazon.tests.checkout;
+package com.automation.tests.amazon.checkout;
 
 
 import static org.testng.Assert.assertEquals;
@@ -7,14 +7,14 @@ import java.math.BigDecimal;
 
 import org.testng.annotations.Test;
 
-import com.amazon.pages.CheckoutPage;
-import com.amazon.pages.HomePage;
-import com.amazon.pages.ResultPage;
-import com.amazon.tests.TestBase;
-import com.amazon.utilities.BrowserUtils;
-import com.amazon.utilities.ConfigurationReader;
-import com.amazon.utilities.Driver;
-import com.amazon.utilities.DynamicData;
+import com.automation.pages.amazon.CheckoutPage;
+import com.automation.pages.amazon.HomePage;
+import com.automation.pages.amazon.ResultPage;
+import com.automation.tests.amazon.TestBase;
+import com.automation.utilities.BrowserUtils;
+import com.automation.utilities.ConfigurationReader;
+import com.automation.utilities.Driver;
+import com.automation.utilities.DynamicData;
 
 public class AmazonCheckout extends TestBase {
 
