@@ -10,7 +10,7 @@
 
 ## Structure of the framework
 
-###POM
+### POM
  - All elements of every page of the application are stored in 'pages' packages
  - TestBase class - includes methods for setting up the conditions pre execution and after execution
  - All main test classes are in the subpackage of the 'tests' packages
