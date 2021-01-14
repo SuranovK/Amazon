@@ -3,15 +3,20 @@ package com.amazon.utilities;
 import java.math.BigDecimal;
 
 public class DynamicData {
-	public static BigDecimal returnAsDecimal(String leftNum, String rightNum) {
-		
+
+	public static BigDecimal combineTwoStringAsDecimalNumber(String leftNum, String rightNum) {
 		Double decimalNumber = Double.parseDouble(leftNum + "." + rightNum);
-		
 		return BigDecimal.valueOf(decimalNumber);
 	}
 
-	public static void main(String[] args) {
-		System.out.println(DynamicData.returnAsDecimal("34", "99"));
+	public static BigDecimal convertStringToBigDecimal(String str) {
+		if (str.contains("$") && str.indexOf('$') == 0) {
+			str = new String(str.substring(1));
+		}
+		Double doubleData = Double.parseDouble(str);
+		return BigDecimal.valueOf(doubleData);
 	}
+
+
 
 }

@@ -17,5 +17,11 @@ public class ResultPage {
 	@FindBy(xpath = "//span[@class='a-price-fraction'][1]")
 	public WebElement itemPriceFraction;
 
+	@FindBy(id = "newBuyBoxPrice")
+	public WebElement newBuyPrice;
+
+	@FindBy(id = "add-to-cart-button")
+	public WebElement addToCartBtn;
+
 
 }

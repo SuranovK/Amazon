@@ -19,7 +19,7 @@
 	 * BrowserUtils - differen types of wait methods and to take screenshot
 	 * ConfigurationReader - to read configuration.properties file
 	 * Driver - web browser driver method
-	 * DynamicData - converting test data 
+	 * DynamicData - methods for converting test data from string to numerical data 
  - configuration.properties file includes test preference data such as:
  		
 	 * url - url of the application to be tested
